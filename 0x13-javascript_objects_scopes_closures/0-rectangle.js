@@ -1,2 +1,5 @@
 #!/usr/bin/node
-module.exports = class Rectangle {};
+class Rectangle {}
+
+const rect = new Rectangle();
+console.log(rect);
